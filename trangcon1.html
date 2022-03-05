@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cung câp linh kiện</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <style>
+        input {
+            width: 250px;
+            height: 35px;
+            border-radius: 20px;
+        }
+
+        .trangcon1 {
+            width: 100%;
+            height: 960px;
+            margin: 0 auto;
+        }
+
+        .submenu {
+            width: 23%;
+            height: 100%;
+            float: left;
+        }
+
+        .locsanpham {
+            width: 100%;
+            border: 1px solid #333;
+            border-radius: 10px;
+            float: left;
+        }
+
+        .danhmuc {
+            margin-top: 20px;
+            width: 100%;
+            border: 1px solid #333;
+            border-radius: 10px;
+            float: left;
+        }
+
+        .sp1 {
+            float: right;
+            width: 75%;
+            height: 100%;
+            /* background-color: rgb(34, 6, 6); */
+        }
+
+        .locsanpham>ul>li,
+        .danhmuc>ul>li {
+            padding: 5.3px 40px;
+            list-style-type: none;
+            display: block;
+            line-height: 20px;
+            border-bottom: 1px solid rgb(185, 180, 180);
+        }
+
+        .anh1 {
+            width: 100%;
+            border: 1px solid rgb(168, 168, 168);
+            border-radius: 5px;
+        }
+
+        .anh1>img {
+            width: 100%;
+        }
+
+        .locsanpham>ul>li>a,
+        .danhmuc>ul>li>a {
+            text-decoration: none;
+            display: block;
+            color: black;
+        }
+
+        .thongtin1 {
+            width: 100%;
+            border: 1px solid rgb(133, 133, 132);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .locsanpham>ul>li:hover>a,
+        .danhmuc>ul>li:hover>a {
+            color: rgb(10, 141, 218);
+        }
+
+        tr:nth-child(2n+1) {
+            background-color: #e2e2e2;
+            border-color: white;
+        }
+        tr:nth-child(2n){
+            border-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fist">
+        <ul>
+            <li>📞 0899639021 | 0362704932</li>
+            <li>🔊</li>
+            <li>
+                <marquee>Giờ mở cửa: Thứ 2- CN: Sáng 7:30- 11:30, Chiều 13:30- 18:00</marquee>
+            </li>
+            <li><a href="form.dangki.html">+👤Đăng Kí</a></li>
+            <li><a href="form.dangnhap.html">👤Đăng Nhập</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="sp">
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="bang"><a href="index.html"><img src="images/19377.jpg"></a></div>
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    </div>
+    <div class="menu mb">
+        <ul>
+            <li><a href="#">Sản Phẩm</a></li>
+            <li><a href="#">PCB Online</a></li>
+            <li><a href="#">Thương Hiệu</a></li>
+            <li><a href="dichvu.html">Dịch Vụ</a></li>
+            <li><a href="tintuc.html">Tin Tức</a></li>
+            <li><input type="text" placeholder="Tên Sản phẩm..."></li>
+        </ul>
+    </div>
+    <div class="boxcenter">
+        <div class="trangcon1">
+            <div class="submenu">
+                <div class="locsanpham">
+                    <ul>
+                        <li class="tieude"><a href="#">Lọc Sản Phẩm</a></li>
+                        <li><a href="#">Thương hiệu</a></li>
+                        <li><a href="#">Series</a></li>
+                        <li><a href="#">Kiểu Logic</a></li>
+                        <li><a href="#">Loại ngoc vào</a></li>
+                        <li><a href="#">Loại ngõ ra</a></li>
+                        <li><a href="#">Số phần tử</a></li>
+                        <li><a href="#">Số bit/ phần tử</a></li>
+                        <li><a href="#">Đóng gói</a></li>
+                        <li><a href="#">Số chân</a></li>
+                        <li><a href="#">Kiểu lắp</a></li>
+                        <li><a href="#">Tồn kho</a></li>
+                    </ul>
+                </div>
+                <div class="danhmuc">
+                    <ul>
+                        <li class="tieude"><a href="#">Danh Mục</a></li>
+                        <li><a href="#">Logic Gates (71)</a></li>
+                        <li><a href="#">Multiplexers & Demultiplexers (21)</a></li>
+                        <li><a href="#">Invêtrs (17)</a></li>
+                        <li><a href="#">Counter (25)</a></li>
+                        <li><a href="#">Encoders, Decoders (20)</a></li>
+                        <li><a href="#">Flip Flops (30)</a></li>
+                        <li><a href="#">Bufers, Line Drivers (39)</a></li>
+                        <li><a href="#">Multivibrators (11)</a></li>
+                        <li><a href="#">Shift Registers (20)</a></li>
+                        <li><a href="#">LatChes (14)</a></li>
+                        <li><a href="#">Bus Transceivers (9)</a></li>
+                        <li><a href="#">FIFOs Memory (1)</a></li>
+                        <li><a href="#">Translation (1)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp1">
+                <div class="anh1">
+                    <img src="images/sp1.png" alt="">
+                </div><br>
+                <div class="thongtin1">
+                    <table border="1" width="100%" height="550px">
+                        <h4>Tính năng</h4>
+                        <tr>
+                            <td>
+                                Series</td>
+                            <td> HC</td>
+                        </tr>
+                        <tr>
+                            <td>Số kênh</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Loại ngõ vào</td>
+                            <td>Schmitt Trigger</td>
+                        </tr>
+                        <tr>
+                            <td>Loại ngõ ra</td>
+                            <td>3 State</td>
+                        </tr>
+                        <tr>
+                            <td>Phân cực</td>
+                            <td>Inverting</td>
+                        </tr>
+                        <tr>
+                            <td>Kiểu chân</td>
+                            <td> Dán bề mặt</td>
+                        </tr>
+                        <tr>
+                            <td>Kiểu đóng gói</td>
+                            <td>SOIC</td>
+                        </tr>
+                        <tr>
+                            <td>Số chân</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Kích thước</td>
+                            <td>8.74 x 3.99 x 1.48mm</td>
+                        </tr>
+                        <tr>
+                            <td>Nhiệt độ max</td>
+                            <td>+125 °C</td>
+                        </tr>
+                        <tr>
+                            <td>Chiều dài</td>
+                            <td> 8.74mm</td>
+                        </tr>
+                        <tr>
+                            <td>Điện áp cấp max</td>
+                            <td> 6 V</td>
+                        </tr>
+                        <tr>
+                            <td>Chiều cao</td>
+                            <td>1.48mm</td>
+                        </tr>
+                        <tr>
+                            <td>Chiều rộng</td>
+                            <td>3.99mm</td>
+                        </tr>
+                        <tr>
+                            <td>Nhiệt độ min</td>
+                            <td>-40 °C</td>
+                        </tr>
+                        <tr>
+                            <td>Điện áp cấp min</td>
+                            <td>2 V</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div><br>
+
+
+        <hr>
+        <div class="footer">
+
+            <div class="grid mb">
+                <div class="grid_row mb">
+                    <div class="grid_column-20 mb">
+                        <h3 class="footer_heading mr">© THEGIOIIC.COM</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    939/1A Kha Vạn Cân, Linh Tây, Thủ Đức, HCM</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-solid fa-phone"></i>
+                                    (28)3896.8699</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    info@thegioiic.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-20">
+                        <h3 class="footer_heading mr">THÔNG TIN CÔNG TY</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    Giới thiệu công ty</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Tuyển dụng
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Hợp tác phân phối sản phẩm
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Nhận sinh viên thực tập
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-20">
+                        <h3 class="footer_heading mr">CHÍNH SÁCH - QUY ĐỊNH</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    Điều kiện sử dụng
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Chính sách bảo mật
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Quy định bảo hành
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Chính sách đổi trả hàng
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Vận chuyển - Giao nhận
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-20">
+                        <h3 class="footer_heading mr">HỖ TRỢ KHÁCH HÀNG</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    Ưu đãi doanh nghiệp
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Hướng dẫn mua hàng online
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Trợ giúp Khách hàng (FAQ)
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+
+                                    Đặt mua linh kiện điện tử
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://uhchat.net/code.php?f=c076b8"></script>
+</body>
+
+</html>
